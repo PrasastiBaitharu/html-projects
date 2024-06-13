@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #42455a;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    
+    padding: 20px 50px;
+}
+nav img{
+    width: 65px;
+    cursor: pointer;
+}
+nav ul{
+    margin-left: 30px;
+    list-style: none;
+    
+}
+nav ul li{
+    display: inline-block;
+    align-items: center;
+    margin: 10px 30px;
+    font-size: 18px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover{
+    color: aqua;
+    border-bottom: 2px solid aqua;
+    
+}
+nav button{
+    top: 28px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    width: 85px;
+    height: 35px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+}
+.content{
+    display: flex;
+}
+.left,.right{
+    flex-basis: 50%;
+}
+.left h1{
+    color: #fff;
+    margin-top: 18%;
+    width: 550px;
+    margin-left: 23%;
+    font-size: 38px;
+}
+.left p{
+    color: #fff;
+    margin-top: 2%;
+    margin-left: 23%;
+    width: 650px;
+}
+.learn{
+    display: flex;
+    margin-top: 40px;
+    
+}
+.left .learn small{
+    color: aqua;
+    margin-left: 40px;
+    width: 120px;
+    margin-top: 12px;
+    
+}
+.left .learn img{
+    width: 40px;
+    height: 40px;
+    margin-left: 23%;
+    border-radius: 20px;
+   
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+}
+
+.right img{
+    height: 500px;
+    margin-left: 90px;
+    margin-top: 5%;
+    cursor: pointer;
+    
+}
+.link{
+    width: 500px;
+    
+    margin-top: 200px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    padding-left: 70px;
+    font-size: 15px;
+    background: linear-gradient(to right, #db1bf6, #19d7f8);
+}
+
+.share small{
+    display: block;
+    margin-top: 5px;
+}
+.link .share img{
+    
+    width: 20px ;
+    height: 20px;
+    margin-left: 15px;
+}
+.link .recent small{
+    display: block;
+    margin-left: 20px;
+    margin-top: 1px;
+}
+.link .recent img{
+    width: 25px;
+    height: 25px;
+    margin-left: 47px;
+}
+.link .analytics small{
+    display: block;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+.link .analytics img{
+    width: 25px;
+    height: 25px;
+    margin-left: 44px;  
+}
+.link .wallet small{
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 1px;
+}
+.link .wallet img{
+    width: 45px;
+    height: 30px;
+    margin-left: 25px;
+}
+.icon{
+    margin-top: 29%;
+}
+.icon img{
+    width: 30px;
+    display: block;
+    margin-top: 10px;
+    margin-right: 30px;
+}
